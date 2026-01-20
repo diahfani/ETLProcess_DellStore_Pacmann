@@ -1,6 +1,6 @@
 -- DROP SCHEMA staging;
 
-CREATE SCHEMA staging AUTHORIZATION postgres;
+CREATE SCHEMA staging AUTHORIZATION pacmannweek3;
 
 -- DROP SEQUENCE staging.categories_category_seq;
 

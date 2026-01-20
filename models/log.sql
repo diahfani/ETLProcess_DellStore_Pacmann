@@ -1,5 +1,5 @@
 SELECT MAX(etl_date)
-FROM etl_log
+FROM log.etl_log
 WHERE 
     step = :step_name and
     table_name ilike :table_name and
